@@ -8,7 +8,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-
+    // Constructor
     plot = new QwtPlot(this);
     plot->setTitle( "Plot Demo" );
     plot->setCanvasBackground( Qt::white );
