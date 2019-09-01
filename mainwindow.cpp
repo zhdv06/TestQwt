@@ -44,5 +44,4 @@ MainWindow::~MainWindow()
 {
     delete grid;
     delete curve;
-    delete symbol;
 }
